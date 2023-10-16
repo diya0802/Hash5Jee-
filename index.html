@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>KFC</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicons -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="Assets/images/favicon.png"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img height="80px" width="120px" src="Assets/images/logo.png" />
+        </div>
+        <div class="col-6"></div>
+        <div class="col-2">
+          <p class="sign-in">SIGN IN</p>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="color: #e8002a"
+              ><i class="fa fa-truck" style="font-size: 48px"></i>
+              <span class="nav-text">Delivery</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fa fa-shopping-bag" style="font-size: 48px"></i>
+              <span class="nav-text">Take away</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fa fa-coffee" style="font-size: 48px"></i>
+              <span class="nav-text">Dine-in</span></a
+            >
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="btn btn-dark border border-white rounded px-5"
+          style="font-size: 18px"
+          data-toggle="modal"
+          data-target="#map"
+        >
+          Our Location
+        </button>
+        <i
+          class="fa fa-search"
+          style="font-size: 40px; padding-left: 50px; color: #999999"
+        ></i>
+        <i
+          class="fa fa-shopping-cart"
+          style="
+            font-size: 40px;
+            padding-left: 30px;
+            padding-right: 100px;
+            color: #999999;
+          "
+        ></i>
+      </div>
+    </nav>
+
+    <img class="sign-up" src="Assets/images/signup.png" />
+    <br />
+    <h1 class="heading">RECOMMENDED FOR YOU</h1>
+
+    <div class="row products">
+      <div class="col-sm-4">
+        <div class="card mb-3">
+          <img
+            src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Items/CAT86-6928.jpg?v=15.15"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <img
+              height="19px"
+              width="19px"
+              style="float: left; padding-top: 6px; padding-right: 6px"
+              src="Assets/images/non-veg.png"
+            />
+            <b><p class="card-text">Ultimate Savings Bucket</p></b>
+            <p style="float: left; padding-top: 8px" class="card-text">₹ 599</p>
+            <a
+              href="#"
+              class="btn card-btn"
+              data-toggle="modal"
+              data-target="#buy"
+              >buy</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card mb-3">
+          <img
+            src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Items/CAT86-8205.jpg?v=15.15"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <img
+              height="19px"
+              width="19px"
+              style="float: left; padding-top: 6px; padding-right: 6px"
+              src="Assets/images/non-veg.png"
+            />
+            <b><p class="card-text">Family Fest</p></b>
+            <p style="float: left; padding-top: 8px" class="card-text">₹ 749</p>
+            <a
+              href="#"
+              class="btn card-btn"
+              data-toggle="modal"
+              data-target="#buy"
+              >buy</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card mb-3">
+          <img
+            src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Items/big-8.jpg?v=15.15"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <img
+              height="19px"
+              width="19px"
+              style="float: left; padding-top: 6px; padding-right: 6px"
+              src="Assets/images/non-veg.png"
+            />
+            <b><p class="card-text">Big 8</p></b>
+            <p style="float: left; padding-top: 8px" class="card-text">₹ 549</p>
+            <a
+              href="#"
+              class="btn card-btn"
+              data-toggle="modal"
+              data-target="#buy"
+              >buy</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img
+      class="sign-up"
+      src="https://online.kfc.co.in/Content/OnlineOrderingImages/Shared/AirtelOffer.png"
+    />
+    <br />
+
+    <div
+      class="modal fade"
+      id="buy"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="basicModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-8">
+              <div
+                class="alert alert-success"
+                id="success-message"
+                style="display: none"
+              >
+                <a
+                  href="#"
+                  class="close"
+                  data-dismiss="alert"
+                  aria-label="close"
+                  >&times;</a
+                >
+                <strong>Success!</strong> Meal is being cooked shortly.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container card links-footer">
+        <div class="row">
+          <div class="col-8" style="padding-top: 10px">
+            <span class="footer-links">About</span>
+            <span class="footer-links">Feedback</span>
+            <span class="footer-links">Contact us</span>
+            <span class="footer-links">Offers and Vouchers</span>
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <hr class="horizontal-line" />
+        <div class="row">
+          <div class="col-6">
+            <img
+              height="30px"
+              width="40px"
+              src="Assets/images/facebook.png"
+              style="padding-left: 10px"
+            />
+            <img
+              height="30px"
+              width="75px"
+              src="Assets/images/youtube.png"
+              style="padding-left: 30px"
+            />
+          </div>
+          <div class="col-6">
+            <small style="float: right"
+              >© Copyright 2021 KFC. All Rights Reserved.</small
+            >
+          </div>
+        </div>
+        <br />
+        <div class="text-center">
+          <small>
+            Food shown are for illustration purpose only. Actual product may
+            differ from the images shown in this website.
+          </small>
+        </div>
+      </div>
+    </footer>
+    <br />
+
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
